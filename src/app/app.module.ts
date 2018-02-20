@@ -5,8 +5,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { CseComponent } from './cse/cse.component';
-import { CivilComponent } from './civil/civil.component';
 import { ExecutiveComponent } from './executive/executive.component';
 import { SuiteComponent } from './suite/suite.component';
 import { StandardComponent } from './standard/standard.component';
@@ -16,8 +14,6 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CseComponent,
-    CivilComponent,
     ExecutiveComponent,
     SuiteComponent,
     StandardComponent,
